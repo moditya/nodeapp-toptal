@@ -1,29 +1,18 @@
 {
-  "name": "nodeapp-toptal",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "node-app",
+  "description": "hello node app",
+  "version": "0.0.2",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "node_modules/.bin/mocha -w"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/moditya/nodeapp-toptal.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/moditya/nodeapp-toptal/issues"
-  },
-  "homepage": "https://github.com/moditya/nodeapp-toptal#readme",
   "dependencies": {
-    "express": "^4.18.2",
-    "pm2": "^5.2.2"
+    "express": "3.12.0",
+    "pm2": "^2.10.1"
   },
   "devDependencies": {
-    "mocha": "^10.2.0",
-    "should": "^13.2.3",
-    "supertest": "^6.3.3"
+    "mocha": "1.20.1",
+    "supertest": "0.13.0"
   }
 }
